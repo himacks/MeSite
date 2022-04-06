@@ -1,0 +1,23 @@
+.headerBarCont {
+  background-color: #03045e;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameCont {
+  width: min-content;
+}
+
+.myNameLogo {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.svgIcon {
+  color: white;
+}
