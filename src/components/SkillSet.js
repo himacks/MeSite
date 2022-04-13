@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { componentDidMount } from 'react'
 import BarData from './minicomps/BarData'
 import '../styling/SkillSet.css';
 
 
 
 export default function SkillSet() {
+
+
   return (
     <div className="statsDiv">
         <BarData label="Problem Decomposition" width={75} />

@@ -1,8 +1,8 @@
 .dateCont {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
-  text-align: top;
   width: min-content;
+  text-align: end;
 }
 
 .timelineCont {
@@ -15,7 +15,6 @@
 }
 
 .dateText {
-  text-align: top;
   font-size: 50pt;
 }
 
@@ -48,5 +47,14 @@ t2 {
 }
 
 .skillsCont {
-  margin-top: 45%;
+  margin-top: 40%;
+}
+
+.svgIcon {
+  color: white;
+}
+
+.timeLineBtnsCont {
+  display: flex;
+  justify-content: center;
 }
