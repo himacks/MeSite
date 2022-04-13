@@ -1,22 +1,13 @@
 .introSlide {
+  height: 100%;
   position: relative;
-  height: 60%;
 }
 
-#tsparticles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
 .introCont {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  background-color: #1e59f5;
 }
 
 .profilePicCont {
@@ -24,18 +15,20 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding: 0.5rem;
-  z-index: 1;
+  padding: 3rem;
+  z-index: 2;
 }
 
 .profilePicBorder {
   width: 155px;
   height: 155px;
   display: flex;
-  border: 2px solid #ffffff;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  z-index: 2;
+  border: 2px solid #fff;
+  box-shadow: inset 0 0 0 5px #1e59f5;
 }
 
 .profilePicImg {
@@ -49,7 +42,7 @@
   justify-content: center;
   align-items: flex-end;
   padding: 0.5rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 .introText {
@@ -62,7 +55,7 @@
   flex: 0 0 auto;
   display: flex;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
 }
 .slidingWordTextCont {
   display: flex;

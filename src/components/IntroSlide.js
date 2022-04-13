@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import {GitHub, Linkedin, Mail} from 'react-feather';
 
+
+
 import '../styling/IntroSlide.css';
 import profilePic from'../imgs/profilephoto.png';
 import Particles from "react-tsparticles";
@@ -50,33 +52,7 @@ export default function IntroSlide() {
     
     return (
     <div className="introSlide">
-        <Particles
-        params={{
-          fpsLimit: 60,
-          fullScreen: false,
-          particles: {
-            number: {
-                limit: 50
-            },
-            color: {
-              value: "#ffffff"
-            },
-            links: {
-              enable: false,
-              color: "#ffffff",
-              distance: 75
-            },
-            move: {
-              enable: true,
-              gravity: {
-                  accerlation: 0.1,
-                  enable: true,
-                  maxSpeed: 4
-              }
-            }
-          }
-        }}
-        />
+        
         <div className="introCont">
             <div className="profilePicCont">
                 <div className="profilePicBorder">

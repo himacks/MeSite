@@ -1,0 +1,64 @@
+.mountainBanner {
+  height: 150vh;
+  background: #1e59f5;
+  z-index: -1;
+}
+
+.mountainRidgeCont {
+  z-index: -1;
+  pointer-events: none;
+}
+
+.mountainTextCont {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.mountainFlexDiv {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+t1 {
+  color: #ffffff;
+}
+
+.aboutTextCont {
+  margin: 0 5rem;
+}
+
+.aboutTitleText {
+  margin-bottom: 1rem;
+}
+
+.headingText {
+  display: inline-block;
+}
+
+.bodyText {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.upperTextCont {
+  margin-bottom: 2rem;
+}
+
+.codeTimeLineDiv {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.meInfoCont {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding: 0rem;
+}
+
+.skillsCont {
+  padding: 5rem;
+}

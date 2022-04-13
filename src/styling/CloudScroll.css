@@ -1,0 +1,12 @@
+.skyCloudsBanner {
+  height: 80vh;
+  position: relative;
+  background: rgb(115, 173, 233);
+  background: linear-gradient(
+    180deg,
+    rgba(115, 173, 233, 1) 0%,
+    rgba(78, 136, 208, 1) 35%,
+    rgba(30, 89, 245, 1) 100%
+  );
+  z-index: 0;
+}

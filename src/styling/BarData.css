@@ -1,0 +1,28 @@
+.dataBarCont {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataBarRect {
+  background-color: #ffffff;
+  width: 30%;
+  height: 4px;
+  display: inline-block;
+}
+
+.dataBarRectLeft {
+  height: 4px;
+  background-color: #7e7e7e;
+  display: inline-block;
+}
+
+.dataBarRectCont {
+  flex: 1 0 auto;
+}
+
+.dataBarLabel {
+  font-weight: 600;
+  flex: 0 0 auto;
+  text-align: start;
+}

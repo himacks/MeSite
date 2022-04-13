@@ -1,0 +1,52 @@
+.dateCont {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  text-align: top;
+  width: min-content;
+}
+
+.timelineCont {
+  margin-top: 35%;
+  padding: 5rem;
+}
+
+.timelineDetailsCont {
+  display: flex;
+}
+
+.dateText {
+  text-align: top;
+  font-size: 50pt;
+}
+
+.infoCont {
+  margin-left: 1rem;
+}
+
+.titleText {
+  margin-left: 1rem;
+}
+
+.infoTitle {
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+.infoText {
+  font-weight: 300;
+}
+
+.subTitleCont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+t2 {
+  color: #ffffff;
+}
+
+.skillsCont {
+  margin-top: 45%;
+}
